@@ -4,7 +4,7 @@ MNEMONIC_WORD = process.env.MNEMONIC_WORD
 const args = process.argv.splice(2);
 
 var index = 0;
-if (args.length > 1) {
+if (args.length > 0) {
 	index = args[0]
 }
 

@@ -18,8 +18,13 @@ docker run --rm vite-wallet-utils random_mnemonic
 
 ```
 cd wallet-utils
-vim .env # edit .env file
+# edit .env file
+vim .env 
+# extract private key for index=0
 docker run --env-file .env --rm vite-wallet-utils extract_private
+
+# extract private key for index=1
+docker run --env-file .env --rm vite-wallet-utils extract_private 1
 ```
 
 ## faucet 
