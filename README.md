@@ -41,5 +41,5 @@ docker build -t vite-faucet .
 ```
 cd wallet-utils
 vim .env
-docker run --env-file ./.env --rm vite-faucet
+docker run --env-file .env --rm vite-faucet
 ```
